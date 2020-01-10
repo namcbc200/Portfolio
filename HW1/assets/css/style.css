@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: red;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-bottom: 2px solid rgb(161, 158, 158);
+  z-index: 1;
+}
+
+#yourName {
+  position: fixed;
+  top: inherit;
+  left: 5%;
+  width: 20%;
+  height: inherit;
+  background-color: rgb(14, 202, 202);
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  padding-top: 35px;
+}
+
+nav {
+  position: fixed;
+  top: inherit;
+  right: 5%;
+  width: 20%;
+  height: inherit;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 40px;
+  /* background: pink; */
+}
+
+ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+/* ------------------------------------------------------------------------------- */
+.wrapper {
+  background: rgb(235, 233, 233);
+  width: 100%;
+  padding: 10% 5%;
+  /* margin: unset auto; */
+  /* min-height: 100px; */
+}
+
+  section {
+    top: 100px;
+    padding: 5%;
+    background: white;
+  }
+    #aboutMe {
+      background-color: white;
+      border-bottom: 2px solid black;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: 10%;
+      position: relative;
+      top: -20px;
+    }
+    #words {
+      background-color: white;
+      font-size: 30px;
+      text-align: justify;
+    }
+    #catPic {
+      float: left;
+      margin-right: 30px;
+    }
+    p {
+      line-height: 45px;
+      background-color: white;
+    }
+    .clear {
+      clear: both;
+    }
+footer {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding-top: 60px;
+  background-color: gray;
+  border-top: 5px solid rgb(14, 202, 202);
+  ;
+}

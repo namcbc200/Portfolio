@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    /* width: 100%;
+    height: auto; */
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    
+}
+
+
+.box2 {
+    background-color: white;
+    width: 96%;
+    height: 600px;
+    /* border: 1px solid black; */
+    margin: 20x 10%;
+    position: relative;
+    top: 40px;
+    left: 2%;
+    box-shadow: 10px 20px 8px 10px #1a1919:
+}
+h2 {
+    margin: 0 5%;
+    padding: 40px 10px;
+    font-size: 30px;
+    border-bottom: 1px solid gray;
+
+}
+
+.textBox {
+    border: 2px dashed gray;
+    width: 90%;
+    height: 250px;
+    position: absolute;
+    top: 140px;
+    margin: 0 5% 0 5%;
+    
+}
+p {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+    color: lightgray;
+
+}
+
+.buttons {
+    /* background: lightskyblue; */
+    width: 90%;
+    height: 160px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    margin: 0 5%;
+    border-top: 2px solid gray;
+
+}
+
+.b1 {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+
+    background-color: rgb(255, 1, 1);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.b2 {
+    position: absolute;
+    top: 40%;
+    right: 15%;
+
+    background-color: rgb(149, 150, 149);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
