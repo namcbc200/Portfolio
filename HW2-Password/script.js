@@ -1,4 +1,4 @@
-
+console.log("hi from js"); 
 function genNewPassword(min, max) {
 
     min = 5;
@@ -15,6 +15,6 @@ function genNewPassword(min, max) {
         console.log(num);
     }
 }
-    console.log(genNewPassword);
+    // console.log(genNewPassword);
 
 
